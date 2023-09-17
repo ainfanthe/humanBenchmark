@@ -29,8 +29,8 @@ pyautogui.click(target_x, target_y)  # Haz clic para empezar
 time.sleep(1)  # Espera un segundo antes de empezar
 
 # Configuración personalizable
-delay = 0.1  # Ajusta según tu preferencia
-lvls = 5    # Ajusta la cantidad de niveles que deseas completar
+delay = 0.1 
+lvls = 5
 
 for _ in range(lvls):
     wait_for_green_color()
