@@ -10,3 +10,9 @@
 ```
 pip install pyautogui
 ```
+
+### Execution
+
+```
+python .\reactTime.py
+```
