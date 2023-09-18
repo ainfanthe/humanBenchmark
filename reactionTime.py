@@ -6,7 +6,7 @@ import webbrowser
 
 # Abre la página del juego
 webbrowser.open('https://www.humanbenchmark.com/tests/reactiontime', new=2)
-time.sleep(3)  # Tiempo para que la página se cargue; ajusta según tu PC
+time.sleep(3)  # Tiempo para que la página se cargue
 
 # Ajustes específicos para la resolución 1366x768
 width, height = pyautogui.size()
